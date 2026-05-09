@@ -11,6 +11,7 @@ def capitalization_control(sifre): #Buyuk harf kontrolü
     """
     for harf in sifre:
         if harf.isupper():
+        
             return True
     return False
 
