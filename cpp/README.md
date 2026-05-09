@@ -1,3 +1,3 @@
-#Python Projects
+#Cpp Projects
 
-Bu klasörde Python ile geliştirdiğim çeşitli çalışmalar ve küçük projeler bulunmaktadır.
+Bu klasörde C++ ile geliştirdiğim çeşitli çalışmalar ve projeler bulunmaktadır.
