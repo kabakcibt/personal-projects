@@ -1,1 +1,1 @@
-Python projects will be added here.
+Farklı konularla ilgili projelerim
