@@ -1,1 +1,3 @@
-C# projects will be added here.
+# Csharp Projects
+
+Bu klasörde C# ile geliştirdiğim çeşitli çalışmalar ve projeler bulunmaktadır.
