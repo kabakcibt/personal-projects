@@ -1,3 +1,3 @@
-# Dictionary Uygulaması
+# Stok Yonetim Uygulaması
 
 C# kullanılarak geliştirilmiş basit bir stok ve ürün yönetim uygulaması.
