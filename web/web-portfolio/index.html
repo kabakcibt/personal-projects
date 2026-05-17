@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolyo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"> Bilal <span.></span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#projects">Projeler</a></li>
+            <li><a href="#about">Hakkımda</a></li>
+            <li><a href="#contact">İletişim</a></li>
+            <!-- Senin GitHub Profil Linkin -->
+            <li><a href="https://github.com/kabakcibt" target="_blank" class="nav-github">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/bilal-taha-kabakci/" target="_blank"
+                    class="nav-social linkedin-color">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <header id="#home" class="hero-section">
+        <div class="hero-content">
+            <h1>Merhaba, Ben <span class="highlight">Bilal</span></h1>
+            <p>Ben bir <span id="typing-text"></span><span class="cursor">|</span></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Projelerimi Gör</a>
+                <a href="https://github.com/kabakcibt" target="_blank" class="btn btn-outline">GitHub Profilim</a>
+                <a href="https://www.linkedin.com/in/bilal-taha-kabakci/" target="_blank"
+                    class="btn btn-outline btn-linkedin">LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="projects-section">
+        <h2>Öne Çıkan Projeler</h2>
+        <div class="project-grid">
+            <!-- 1. Proje: Otel İşletme Sistemi -->
+            <div class="project-card">
+                <h3>Otel İşletme Sistemi</h3>
+                <p>C++ kullanılarak geliştirilmiş konsol tabanlı otel yönetim sistemi. Oda ekleme, müşteri yönetimi, oda
+                    kayıt işlemleri ve veri bütünlüğü için dosya tabanlı (file stream) veri saklama mimarisi içerir.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">C++</span>
+                    <span class="tech-tag">OOP</span>
+                    <span class="tech-tag">File Handling</span>
+                </div>
+                <a href="https://github.com/kabakcibt/personal-projects/tree/main/cpp" class="project-link"
+                    target="_blank">Kodları İncele &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Hasta Verisi Analizi</h3>
+                <p>Python ile hastane kayıt verileri üzerinde temel veri analizi simülasyonu. CSV dosyalarından okunan
+                    verilerle bölüm/doktor bazlı istatistikler, ortalama ve kritik bekleme sürelerinin analizi
+                    gerçekleştirilmiştir.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Data Analysis</span>
+                    <span class="tech-tag">CSV Data</span>
+                </div>
+                <span class="project-link disabled-link">Kodlar Yakında Yüklenecek &hellip;</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>Hakkımda & Yetenekler</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Temellerini meslek lisesi bilgisayar altyapısı ile attığım yazılım serüvenimde, her zaman teorik
+                    bilgi yığınları yerine <strong>çalışabilir, optimize ve pratik çözümler</strong> üretmeye
+                    odaklandım. Sistem mimarilerinden veri analizine, tasarımdan modern web arayüzlerine kadar projenin
+                    her aşamasına dokunabilen çok yönlü bir geliştiriciyim.
+                </p>
+                <p>
+                    Benim için en değerli kod; en az kaynak tüketen, en kararlı çalışan ve net bir amaca hizmet eden
+                    koddur.
+                </p>
+            </div>
+
+            <div class="skills-container">
+                <h3>Teknoloji ve Araçlar</h3>
+                <div class="skills-grid">
+                    <span class="skill-badge">C++</span>
+                    <span class="skill-badge">C#</span>
+                    <span class="skill-badge">Python (.py / .ipynb)</span>
+                    <span class="skill-badge">SQL</span>
+                    <span class="skill-badge">HTML5</span>
+                    <span class="skill-badge">CSS3</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Photoshop (UI/Tasarım)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>İletişim</h2>
+        <p>Benimle calismak veya projeler hakkinda konusmak istersen mesaj birakabilirsin.</p>
+        <form id="contact-form" action="https://formspree.io/f/meedjwwq" method="POST">
+            <input type="text" name="name" placeholder="Adınız" required>
+            <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+            <textarea name="message" placeholder="Mesajınız" rows="5" required></textarea>
+            <button type="submit" class="btn">Gönder</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
